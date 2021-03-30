@@ -2,6 +2,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python>=3.8.0
   - gdal>=3.1
   - rasterio>=1.2.0
   - geopandas>=0.9.0
@@ -10,3 +11,4 @@ dependencies:
   - dask-labextension
   - pip:
         - stackstac
+        - sat-search
