@@ -1,5 +1,0 @@
-#!/bin/bash
-jupyter labextension install @jupyterlab/server-proxy \
-                             dask-labextension
-
-#EOF
